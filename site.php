@@ -8,7 +8,24 @@
 </head>
 <body>
   <?php
-   echo("Hello World");
+  $characterName = "Tom";
+  $characterAge = 80;
+   echo "<h1>Rachel's Site</h1>";
+   echo "<hr>";
+   echo "<p>This is my sight</p>";
+   echo "<hr>";
+   echo "There once was a man named $characterName <br>";
+   echo "He was $characterAge years old <br>";
+   $characterName = "Mike";
+   echo "He really liked the name $characterName <br>";
+   echo "But didn't like being $characterAge <br>";
+   echo "<hr>";
+   $phrase = "string data type in parenthesis";
+   $age = 30;
+   $gpa = 3.9;
+   $isMale = true;
+   $isFemale = false;
+   null
    ?>
 </body>
 </html>
